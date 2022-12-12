@@ -5,7 +5,9 @@ version: v1
 studenID: ""
 
 deployment:
-  env: []
+  env:
+  - name: TEST
+    value: 'Hello World!'      
   replicas: 1
 
 image:
